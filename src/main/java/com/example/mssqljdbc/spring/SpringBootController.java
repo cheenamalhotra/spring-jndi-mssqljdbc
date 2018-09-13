@@ -32,8 +32,8 @@ import com.microsoft.sqlserver.jdbc.SQLServerKeyVaultAuthenticationCallback;
 @Controller
 public class SpringBootController { 
 
-	protected static final String applicationClientID = "ba2814e5-8dc6-4b68-bb68-2f8d6c37a0a5";
-	protected static final String applicationKey = "/V1e1IvJ8o2+CYSMvOC13kpOhdb6qkd1T6F9UTqNods=";
+	protected static final String applicationClientID = "<applicationClientID>";
+	protected static final String applicationKey = "<applicationKey>";
 	
 	//Tables used in application
     private static final String user = "[user]";
