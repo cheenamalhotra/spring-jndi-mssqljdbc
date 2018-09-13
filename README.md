@@ -1,3 +1,4 @@
+
 # Spring JNDI with 'mssqljdbc'
 Sample application to demonstrate using Tomcat datasource configuration in Spring Boot Application.
 
@@ -21,5 +22,6 @@ Sample application to demonstrate using Tomcat datasource configuration in Sprin
 6. Provide only 1 `mssql-jdbc` driver JAR for **AZURE KEY VAULT** provider registration and performing Encryption/Decryption.
     - This is applicable in this case where Azure Key Vault provider is registered in Controller class. If done elsewhere, it may not be applicable.
     - The application would fail if a copy of `mssql-jdbc` driver Jar is also placed in tomcat server’s lib directory. If client application does not access any driver classes, the driver is not required to be added as a Maven dependency. But if it is added a dependency in pom.xml, it should not be provided in the Tomcat Server’s lib directory.
+7. Update **Application Client ID** and **Application Secret** in SpringBootController.java
 7. Build the WAR file with `mvn clean package`.
 8. Deploy WAR file to Tomcat Server.
