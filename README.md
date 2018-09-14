@@ -1,6 +1,6 @@
 
 # Spring JNDI with 'mssqljdbc'
-Sample application to demonstrate using Tomcat datasource configuration in Spring Boot Application.
+Sample application to demonstrate using Tomcat datasource configuration in Spring Boot Application with MSSQL JDBC Driver connecting to SQL Server.
 
 ## Below mechanisms have been covered:
 - Reading non-encrypted data (Basic Connection)
